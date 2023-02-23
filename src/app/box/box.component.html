@@ -1,5 +1,9 @@
-<div class="box">
+<div class="box" [style.backgroundColor]="current">
 <div class="colorwrap">
-    <div class="circle" *ngFor="let x of colors" [ngStyle]="{backgroundColor:x}"></div>
+    <div class="circle" 
+    *ngFor="let x of colors" 
+    [ngStyle]="{backgroundColor:x}"
+    (click)="colorChange(x)">
+    </div>
 </div>
 </div>
