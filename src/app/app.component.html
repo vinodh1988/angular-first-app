@@ -11,11 +11,9 @@
 Change theme <select  [(ngModel)]="homebg">
   <option *ngFor="let x of bgcolors,let y=index" value={{x}}>{{"Theme"+(y+1)}}</option>
 </select>
-<div class="boxes">
-  <app-box></app-box>
-  <app-box></app-box>
-  <app-box></app-box>
-  <app-box></app-box>
-  <app-box></app-box>
+
+<div id="boxes">
+  <app-box *ngFor="let x of boxtitles" [title]="x"></app-box>
+ 
 </div>
 </div>

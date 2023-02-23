@@ -8,6 +8,8 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title:string = 'XYZ APP'
   menuitems:string[]=["Home","Projects","About","Contact","Products","Achievements"]
+  boxtitles:string[]=["Vegetables","Fruits","Electronic Gadgets","Sport Goods",
+   "Books"]
   homebg:string="gray"
   bgcolors=["gray","#E3E7EA","#BEEAD5"]
 }
