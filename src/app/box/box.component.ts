@@ -6,5 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./box.component.css']
 })
 export class BoxComponent {
-
+   colors:string[]=["lightblue",'yellow',"lightgreen","tomato"]
+  
 }

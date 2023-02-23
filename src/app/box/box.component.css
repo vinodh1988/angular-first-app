@@ -7,3 +7,13 @@
   box-sizing: border-box;
   float: left;
 }
+
+.circle{
+  background-color: green;
+  border-radius: 20px;
+  height: 30px;
+  width:30px;
+  margin-right: 10px;
+  float: left;
+  box-shadow: 2px 2px 2px gray;
+}
