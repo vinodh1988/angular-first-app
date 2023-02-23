@@ -19,4 +19,11 @@ export class AppComponent {
     ["Cricket  Bat","Basket ball","Cricket Ball"],
     ["Book1","Book2","Book3"]
   ]
+  selected:string="Nothing"
+  boxname:string="Un Available"
+
+  receiveInfo(item:string,boxname:string):void{
+    this.selected=item
+    this.boxname=boxname
+  }
 }

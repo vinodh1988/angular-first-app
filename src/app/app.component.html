@@ -8,12 +8,15 @@
       <li *ngFor="let x of menuitems">{{x}}</li>
      </ul>
   </div>
+
 Change theme <select  [(ngModel)]="homebg">
   <option *ngFor="let x of bgcolors,let y=index" value={{x}}>{{"Theme"+(y+1)}}</option>
 </select>
-
+<h3>
+The item selected is {{selected}} from box {{boxname}}
+</h3>
 <div id="boxes">
-  <app-box *ngFor="let x of boxtitles" [title]="x"></app-box>
+  <app-box *ngFor="let x of boxtitles;let y=index" [title]="x" [values]="boxitems[y]"></app-box>
  
 </div>
 </div>
