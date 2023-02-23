@@ -9,6 +9,7 @@ export class BoxComponent {
    colors:string[]=["lightblue",'yellow',"lightgreen","tomato"]
    current:string="lightblue"
    @Input() title:string=""
+   @Input("values") items:string[]=[]
 
    colorChange(color:string):void{
      this.current=color
