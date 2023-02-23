@@ -15,5 +15,15 @@
   width:30px;
   margin-right: 10px;
   float: left;
+  box-shadow: 2px 2px 2px rgb(45, 45, 45);
+  cursor: pointer;
+}
+
+.colorwrap{
+  overflow: hidden;
+  border-radius:10px;
+  padding: 10px;
+  background-color: black;
   box-shadow: 2px 2px 2px gray;
+  width: 160px;
 }

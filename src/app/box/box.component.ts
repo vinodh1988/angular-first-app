@@ -7,5 +7,9 @@ import { Component } from '@angular/core';
 })
 export class BoxComponent {
    colors:string[]=["lightblue",'yellow',"lightgreen","tomato"]
-  
+   current:string="lightblue"
+
+   colorChange(color:string):void{
+     this.current=color
+   }
 }
