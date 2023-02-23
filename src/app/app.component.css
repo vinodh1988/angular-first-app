@@ -1,11 +1,13 @@
 #home {
     overflow: hidden;
+    background-color: gray;
 }
 
 #header{
     background-color: rgb(95, 92, 92);
     color: white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: -20px;
 }
 
 #header ul{
@@ -20,4 +22,8 @@
     float: left;
     list-style-type: none;
     width: 120px;
+}
+
+#boxes{
+    overflow: hidden;
 }
